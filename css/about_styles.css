@@ -1,0 +1,40 @@
+
+.image {
+	display: inline-block;
+	float: right;
+	padding: 1em 2em 0 2em;
+}
+.column {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	padding: 0 0 0 5em;
+}
+.main_text, p {
+	clear: both;
+	margin-left: 5%;
+	padding: 1em 0 0 0;
+	margin-right: 20%;
+}
+
+.skills-column, h3 {
+	color: #DarkGreen;
+	margin-left: 1%;
+	font-size: 1.2em;
+}
+.skills h3 {
+	text-align: left;
+	margin-left: 5%;
+}
+.intro, h2 {
+	margin left: 5%;
+}
+
+ul.socia-new {
+	list-style: none;
+	margin-left: 10%;
+	width: auto;
+	display: inline-block;
+	font-size: 2em;
+}
+
