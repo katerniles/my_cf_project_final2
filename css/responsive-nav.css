@@ -1,18 +1,29 @@
 /*! responsive-nav.js 1.0.39 by @viljamis */
+.col-md-4 {
+  margin: auto;
+  padding: 2em;
+    margin-left: -2em;
 
+}
 .nav-collapse ul {
   margin: 0;
   padding: 0;
   width: 100%;
   display: block;
   list-style: none;
-}
+    background-color: gold;
 
+}
+#process {
+  margin-top: 20px;
+}
 .nav-collapse li {
   width: 100%;
   display: block;
 }
-
+.skills-column {
+  margin: 0 1em;
+}
 .js .nav-collapse {
   clip: rect(0 0 0 0);
   max-height: 0;
@@ -35,6 +46,9 @@
   -o-user-select: none;
   user-select: none;
 }
+ .navbar-toggle {
+    background-color: gold;
+}
 
 @media screen and (min-width: 40em) {
   .js .nav-collapse {
@@ -47,3 +61,4 @@
     display: none;
   }
 }
+

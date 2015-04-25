@@ -7,7 +7,9 @@ p, li a:hover {
 p, li {
     font-size: 1.2em;
     font-weight: 600;
- }
+ 
+    color:  black;
+}
 
 h1, h2, h3 {
 	font-family: Futura, Helvetica, Arial, sans-serif;
@@ -27,7 +29,7 @@ h4 {
 	background-color: transparent !important;
  }
  .container {
- 	width: 75% !important;
+ 	/* width: 75% !important; */
  }
  p, li .container {
  	font-size: 1.2em;
